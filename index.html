@@ -3,13 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Search Github</title>
   </head>
   <body>
-    <form onsubmit="fetchGithubApi()">
-      <input type="text" id="user" />
-      <button type="submit">Search</button>
-    </form>
+    <header>
+      <form class="search-form" onsubmit="fetchGithubApi()">
+        <img src="./logo.svg" alt="github logo" width="40" />
+        <input class="search-input" type="text" required id="user" />
+        <button type="submit">Search</button>
+      </form>
+    </header>
     <ul id="repo-name"></ul>
   </body>
   <script src="app.js"></script>
