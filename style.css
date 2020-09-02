@@ -54,3 +54,49 @@ header {
   margin: 1rem;
   fill: white;
 }
+
+.repo-container {
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid #282726;
+  padding: 1rem;
+  color: #282726;
+}
+
+.repo-container:hover {
+  background-color: #282726;
+  color: white;
+}
+
+#repo-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.info-container {
+  display: flex;
+  align-items: space-around;
+  justify-content: space-around;
+  width: 100%;
+  padding-top: 1rem;
+}
+
+.info-container p {
+  margin: 10px;
+}
+
+.repo-link {
+  text-decoration: none;
+}
+
+.lan-icon,
+.star {
+  fill: yellow;
+}
